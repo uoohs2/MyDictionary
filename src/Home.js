@@ -38,7 +38,7 @@ const Home = (props) => {
               <IconButton
                 onClick={() => {
                   history.push({
-                    pathname: "/modify/" + cards[i].id,
+                    pathname: "/modify/" + cards[i].id.replace(/(\s*)/g, ""),
                     state: { cards: cards[i] },
                   });
                 }}
