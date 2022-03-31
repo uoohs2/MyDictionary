@@ -193,6 +193,7 @@ const Button = styled.button`
   margin: 0 10px;
   border: none;
   border-radius: 5px;
+  color: black;
   font-family: "BMAir";
   font-size: 1em;
   font-weight: bold;
