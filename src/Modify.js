@@ -27,9 +27,9 @@ const Modify = (props) => {
   const location = useLocation();
   const modify_card = location.state.cards;
   useEffect(() => {
-    modify_card.word = word.current.value;
-    modify_card.explanation = explanation.current.value;
-    modify_card.link = link.current.value;
+    word.current.value = modify_card.word;
+    explanation.current.value = modify_card.explanation;
+    link.current.value = modify_card.link;
   }, []);
 
   return (
