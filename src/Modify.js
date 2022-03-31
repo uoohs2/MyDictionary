@@ -42,7 +42,7 @@ const Modify = (props) => {
         {/* <Form> */}
         <Label>
           단어
-          <Input type="text" ref={word} defaultValue={modify_card.word} />
+          <Input type="text" ref={word} value={modify_card.word} />
         </Label>
         <Label>
           설명
