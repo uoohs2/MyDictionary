@@ -181,10 +181,11 @@ const IconImg = styled.img`
   margin: 0 auto;
 `;
 const Word = styled.h3`
-  width: 220px;
+  width: 200px;
   min-height: 30px;
   line-height: 30px;
   margin: 10px;
+  border: 1px solid red;
 `;
 
 const Text = styled.p`
