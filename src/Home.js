@@ -185,7 +185,6 @@ const Word = styled.h3`
   min-height: 30px;
   line-height: 30px;
   margin: 10px;
-  border: 1px solid red;
 `;
 
 const Text = styled.p`
