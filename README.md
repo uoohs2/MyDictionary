@@ -1,2 +1,1 @@
-My Dictionary
-Development Dictionary
+My Development Dictionary
